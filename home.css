@@ -1,6 +1,6 @@
 #page-home{
     height: 100vh;
-    background: url('../assets/home-background.svg') no-repeat;
+    background: url('home-background.svg') no-repeat;
     background-position: 35vw bottom; /*eixo x e y da posicao da imagem */
 }
 #page-home .content {
@@ -28,7 +28,7 @@
 #page-home header a span{
     margin-right: 16px;
     display: flex; /*para mostrar a imagem */
-    background-image: url('../assets/log-in.svg');
+    background-image: url('log-in.svg');
     width: 20px;
     height: 20px;
 }
@@ -80,7 +80,7 @@
 
 #page-home main a span::after{ /*cria um pseudoelemento */
     content: "";
-    background-image: url('../assets/search.svg');
+    background-image: url('search.svg');
     width: 20px;
     height: 20px;
 }
